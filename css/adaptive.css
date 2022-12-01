@@ -42,17 +42,10 @@
 
 @media screen and (max-width: 1005px) {
     .card__block {
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        flex-wrap: wrap;
     }
 }
 
-@media screen and (max-width: 690px) {
-    .card__block {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
 @media screen and (max-width: 414px) {
     .card__block {
