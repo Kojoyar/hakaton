@@ -175,7 +175,12 @@
     .footer__input_3 {
         width: 445px;
     }
-    
+    .footer__info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 } 
 @media all and (max-width: 469px) {
     .footer__input_2 {
